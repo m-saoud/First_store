@@ -1,17 +1,18 @@
 .logo{
-    color: burlywood;
-    font-weight: bold;
+    color: rgb(224, 10, 10);
 }
-.container{
-height: 100px;
-display: flex;
+ .container{
+    min-height: 100vh;
+    display: flex;
 justify-content: space-between;
-align-items: center;
-}
+flex-direction:row;
+
+
+ }
+
+
 .Links{
 display: flex;
 gap: 10px;
-}
-.Link{
-
+align-items: center;
 }
