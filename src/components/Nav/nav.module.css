@@ -1,0 +1,17 @@
+.logo{
+    color: burlywood;
+    font-weight: bold;
+}
+.container{
+height: 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.Links{
+display: flex;
+gap: 10px;
+}
+.Link{
+
+}
