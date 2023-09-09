@@ -1,0 +1,9 @@
+.container{
+    min-height: 70px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3433337e;
+
+}
