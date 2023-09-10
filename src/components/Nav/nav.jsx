@@ -2,11 +2,13 @@
 
 import Link from "next/link";
 import React from "react";
-import styles from './nav.module.css';
+import styles from "./nav.module.css";
 import { links } from "./data";
 import Button from "../buttom/button";
+import Darkmoodtogle from "../darkmoodtogle/darkmoodtogle";
 import { Cairo } from "next/font/google";
-const logoFont = Cairo({ subsets: ["latin"], weight: ["600"]});
+const logoFont = Cairo({ subsets: ["latin"], weight: ["600"] });
+
 
 const nav = () => {
   return (
@@ -15,6 +17,7 @@ const nav = () => {
         CocKapo
       </Link>
       <div className={styles.Links}></div>
+<Darkmoodtogle/>
       {links.map((link) => (
         <Link key={link.id} href={link.url} className={styles.Link}>
           {link.title}

@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter, Lalezar } from "next/font/google";
 import Nav from "@/components/Nav/nav";
 import Footer from "@/components/Footer/footer";
+import { ThemContext, ThemProveder } from "@/context/themContext";
 
 const inter = Inter({ subsets: ["latin"] });
 const lalezar = Lalezar({ subsets: ["arabic"],weight:['400']});
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <ThemProveder>
         <div className="container">
           <Nav/>
 
@@ -23,6 +25,8 @@ export default function RootLayout({ children }) {
           <Footer />
         
         </div>
+
+        </ThemProveder>
         
       </body>
     </html>
