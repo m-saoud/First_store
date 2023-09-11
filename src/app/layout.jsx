@@ -4,7 +4,7 @@ import Nav from "@/components/Nav/nav";
 import Footer from "@/components/Footer/footer";
 import { ThemContext, ThemProveder } from "@/context/themContext";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"]});
 const lalezar = Lalezar({ subsets: ["arabic"],weight:['400']});
 
 export const metadata = {

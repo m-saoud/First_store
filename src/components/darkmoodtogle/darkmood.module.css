@@ -11,6 +11,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2px;
+    position: relative;
 }
 
 .switcher {
@@ -23,4 +24,5 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     position: absolute;
+    cursor: pointer;
 }

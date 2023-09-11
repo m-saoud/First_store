@@ -1,42 +1,45 @@
-.container{
+.container {
   display: flex;
   align-items: center;
   gap: 50px;
-  justify-content:space-between;
+  justify-content: space-between;
   min-height: 100vh;
 }
 
-.col{
+.col {
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
-.title{
+
+.title {
   font-size: 65px;
-  background:linear-gradient(to bottom,#53c28b,#bbb) ;
+  background: linear-gradient(to bottom, #53c28b, #bbb);
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
   text-transform: uppercase;
 }
-.image{
-  width: 100%;
-height: 60%;}
 
-.description{
+.image {
+  width: 100%;
+  height: 60%;
+}
+
+.description {
   font-size: 26px;
   text-transform: uppercase;
   text-align: center;
 }
 
-.button{
-  padding:10px;
+.button {
+  padding: 10px;
   cursor: pointer;
   background-color: #53c28b;
   border: none;
   border-radius: 5px;
-  color:inherit;
+  color: inherit;
   width: max-content;
   font-size: larger;
   text-transform: uppercase;
