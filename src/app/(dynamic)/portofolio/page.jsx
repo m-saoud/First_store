@@ -1,11 +1,11 @@
 import React from "react";
 
-const category = () => {
+const portofolio = () => {
   return (
     <div>
-      <h1>category</h1>
+      <h1>portofolio</h1>
     </div>
   );
 };
 
-export default category;
+export default portofolio;
