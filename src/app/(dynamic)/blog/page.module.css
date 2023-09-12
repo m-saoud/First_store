@@ -43,11 +43,13 @@
 }
 
 .postTitle {
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .postPh {
     font-size: 15px;
     color: #999;
+text-wrap: wrap;
 }
 
